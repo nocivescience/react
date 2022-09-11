@@ -11,6 +11,7 @@ function App() {
   const [rutItems,setRutItems]= useState([]);
   const [sexItems, setSexItems]= useState([]);
   const [cityItems,setCityItems]=useState([]);
+  
   const [showCompleted, setshowCompleted] = useState(false);
   useEffect(() => {
     let data = localStorage.getItem("tasks");
